@@ -66,12 +66,12 @@ public class JavaSubArray {
 	    // i is the start index
 	    for (int i = 0; i < A.getSize(); i++)
 	    {
-	        // j is the number of elements which should be printed
+	        // j is the number of elements which should be summed
 	        for (int j = i; j < A.getSize(); j++)
 	        {
 	        	int sum = 0;
 	            
-	        	// print the array from i to j
+	        	// sum the array from i to j
 	            for (int k = i; k <= j; k++)
 	            {
 	            	sum += A.getElement(k);
